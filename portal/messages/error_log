@@ -1,0 +1,22 @@
+[01-Nov-2017 00:31:54 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/shawod/public_html/portal/messages/delete.php:4) in /home/shawod/public_html/portal/messages/delete.php on line 6
+[10-Nov-2017 11:48:55 UTC] PHP Warning:  move_uploaded_file(http://shawod.com/img/20161012_163614.jpg): failed to open stream: HTTP wrapper does not support writeable connections in /home/shawod/public_html/portal/messages/getdata.php on line 141
+[10-Nov-2017 11:48:55 UTC] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpMN6j5t' to 'http://shawod.com/img/20161012_163614.jpg' in /home/shawod/public_html/portal/messages/getdata.php on line 141
+[10-Nov-2017 12:17:23 UTC] PHP Warning:  unlink(): http does not allow unlinking in /home/shawod/public_html/portal/messages/getdata.php on line 249
+[10-Nov-2017 12:17:23 UTC] PHP Warning:  unlink(): http does not allow unlinking in /home/shawod/public_html/portal/messages/getdata.php on line 249
+[10-Nov-2017 12:17:23 UTC] PHP Warning:  unlink(): http does not allow unlinking in /home/shawod/public_html/portal/messages/getdata.php on line 249
+[10-Nov-2017 12:17:23 UTC] PHP Warning:  unlink(): http does not allow unlinking in /home/shawod/public_html/portal/messages/getdata.php on line 249
+[10-Nov-2017 12:17:23 UTC] PHP Warning:  unlink(): http does not allow unlinking in /home/shawod/public_html/portal/messages/getdata.php on line 249
+[10-Nov-2017 12:18:30 UTC] PHP Warning:  move_uploaded_file(http://shawod.com/img/20161012_163614.jpg): failed to open stream: HTTP wrapper does not support writeable connections in /home/shawod/public_html/portal/messages/getdata.php on line 141
+[10-Nov-2017 12:18:30 UTC] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpQqQvhI' to 'http://shawod.com/img/20161012_163614.jpg' in /home/shawod/public_html/portal/messages/getdata.php on line 141
+[10-Nov-2017 12:44:49 UTC] PHP Warning:  require(notifications.php): failed to open stream: No such file or directory in /home/shawod/public_html/portal/messages/index.php on line 16
+[10-Nov-2017 12:44:49 UTC] PHP Warning:  require(notifications.php): failed to open stream: No such file or directory in /home/shawod/public_html/portal/messages/index.php on line 16
+[10-Nov-2017 12:44:49 UTC] PHP Fatal error:  require(): Failed opening required 'notifications.php' (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/shawod/public_html/portal/messages/index.php on line 16
+[10-Nov-2017 12:44:55 UTC] PHP Warning:  require(notifications.php): failed to open stream: No such file or directory in /home/shawod/public_html/portal/messages/index.php on line 16
+[10-Nov-2017 12:44:55 UTC] PHP Warning:  require(notifications.php): failed to open stream: No such file or directory in /home/shawod/public_html/portal/messages/index.php on line 16
+[10-Nov-2017 12:44:55 UTC] PHP Fatal error:  require(): Failed opening required 'notifications.php' (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/shawod/public_html/portal/messages/index.php on line 16
+[14-Feb-2018 12:17:22 UTC] PHP Warning:  unlink(): http does not allow unlinking in /home/shawod/public_html/portal/messages/getdata.php on line 237
+[14-Feb-2018 12:17:22 UTC] PHP Warning:  unlink(): http does not allow unlinking in /home/shawod/public_html/portal/messages/getdata.php on line 237
+[25-Apr-2019 13:30:21 UTC] PHP Warning:  move_uploaded_file(http://shawod.co.za/img/mailfooota.png): failed to open stream: HTTP wrapper does not support writeable connections in /home/shawod/public_html/portal/messages/getdata.php on line 141
+[25-Apr-2019 13:30:21 UTC] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpSWthun' to 'http://shawod.co.za/img/mailfooota.png' in /home/shawod/public_html/portal/messages/getdata.php on line 141
+[25-Apr-2019 13:32:46 UTC] PHP Warning:  move_uploaded_file(../../../img/mailfooota.png): failed to open stream: No such file or directory in /home/shawod/public_html/portal/messages/getdata.php on line 141
+[25-Apr-2019 13:32:46 UTC] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/php0iNq7c' to '../../../img/mailfooota.png' in /home/shawod/public_html/portal/messages/getdata.php on line 141

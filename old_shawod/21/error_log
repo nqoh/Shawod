@@ -1,0 +1,2 @@
+[29-Sep-2019 06:30:36 UTC] PHP Warning:  mail() expects parameter 4 to be string, array given in /home/shawod/public_html/21/sendemail.php on line 16
+[29-Sep-2019 06:30:56 UTC] PHP Warning:  mail() expects parameter 4 to be string, array given in /home/shawod/public_html/21/sendemail.php on line 16

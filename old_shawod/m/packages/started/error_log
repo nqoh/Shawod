@@ -1,0 +1,1 @@
+[13-Nov-2017 10:03:55 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/shawod/public_html/m/packages/connect.php on line 2

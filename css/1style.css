@@ -1,0 +1,62 @@
+@import url(https://fonts.googleapis.com/css?family=Quicksand);
+
+/* Back to top */
+
+#easy-top {
+  background: rgba(0, 0, 0, 0.5);
+  text-align: center;
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+  cursor: pointer;
+  width: 38px;
+  height: 38px;
+  line-height: 38px;
+  border-radius: 4px;
+  padding: 4px;
+  display: none;
+  -webkit-transform: translateZ(0);
+  transition: all .3s ease-out;
+}
+
+#easy-top:hover {
+  background: rgba(0, 0, 0, 0.9);
+}
+
+#easy-top:before,
+#easy-top:after {
+  -webkit-backface-visibility: hidden;
+}
+
+#easy-top:before {
+  content: '';
+  height: 8px;
+  width: 8px;
+  display: block;
+  border: 3px solid #33ccff;
+  border-left-width: 0;
+  border-bottom-width: 0;
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  position: absolute;
+  top: 15px;
+  left: 18px;
+}
+
+#easy-top:after {
+  content: '';
+  height: 16px;
+  width: 3px;
+  display: block;
+  background: #33ccff;
+  position: absolute;
+  top: 17px;
+  left: 22px;
+}
+
+#easy-top:hover:after {
+  border-color: transparent transparent rgba(0, 0, 0, 0.9) transparent;
+}

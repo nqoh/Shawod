@@ -1,0 +1,68 @@
+[30-Oct-2017 15:04:17 UTC] PHP Warning:  mkdir(): No such file or directory in /home/shawod/public_html/myadmin/dashboard/details.php on line 55
+[30-Oct-2017 15:04:17 UTC] PHP Warning:  copy(../../../client_project/3025418/index.php): failed to open stream: No such file or directory in /home/shawod/public_html/myadmin/dashboard/details.php on line 56
+[30-Oct-2017 15:22:39 UTC] PHP Warning:  mkdir(): No such file or directory in /home/shawod/public_html/myadmin/dashboard/details.php on line 55
+[30-Oct-2017 15:22:39 UTC] PHP Warning:  copy(../../../client_project/3024257/index.php): failed to open stream: No such file or directory in /home/shawod/public_html/myadmin/dashboard/details.php on line 56
+[30-Oct-2017 15:31:48 UTC] PHP Warning:  mkdir(): No such file or directory in /home/shawod/public_html/myadmin/dashboard/details.php on line 55
+[30-Oct-2017 15:31:48 UTC] PHP Warning:  copy(../../../client_project/3021502/index.php): failed to open stream: No such file or directory in /home/shawod/public_html/myadmin/dashboard/details.php on line 56
+[30-Oct-2017 15:37:58 UTC] PHP Warning:  mkdir(): No such file or directory in /home/shawod/public_html/myadmin/dashboard/details.php on line 55
+[30-Oct-2017 15:37:58 UTC] PHP Warning:  copy(../../../client_project/3025307/index.php): failed to open stream: No such file or directory in /home/shawod/public_html/myadmin/dashboard/details.php on line 56
+[30-Oct-2017 15:48:59 UTC] PHP Warning:  mkdir(): No such file or directory in /home/shawod/public_html/myadmin/dashboard/details.php on line 55
+[30-Oct-2017 15:48:59 UTC] PHP Warning:  copy(../../../client_project/3028728/index.php): failed to open stream: No such file or directory in /home/shawod/public_html/myadmin/dashboard/details.php on line 56
+[30-Oct-2017 15:57:44 UTC] PHP Warning:  mkdir(): No such file or directory in /home/shawod/public_html/myadmin/dashboard/details.php on line 55
+[30-Oct-2017 15:57:44 UTC] PHP Warning:  copy(../../../client_project/3025704/index.php): failed to open stream: No such file or directory in /home/shawod/public_html/myadmin/dashboard/details.php on line 56
+[30-Oct-2017 16:01:55 UTC] PHP Warning:  mkdir(): No such file or directory in /home/shawod/public_html/myadmin/dashboard/details.php on line 55
+[30-Oct-2017 16:01:55 UTC] PHP Warning:  copy(../../../client_project/3025132/index.php): failed to open stream: No such file or directory in /home/shawod/public_html/myadmin/dashboard/details.php on line 56
+[30-Oct-2017 19:13:23 UTC] PHP Warning:  mkdir(): No such file or directory in /home/shawod/public_html/myadmin/dashboard/details.php on line 55
+[30-Oct-2017 19:13:23 UTC] PHP Warning:  copy(../../../client_project/3023016/index.php): failed to open stream: No such file or directory in /home/shawod/public_html/myadmin/dashboard/details.php on line 56
+[30-Oct-2017 19:16:25 UTC] PHP Warning:  mkdir(): No such file or directory in /home/shawod/public_html/myadmin/dashboard/details.php on line 55
+[30-Oct-2017 19:16:25 UTC] PHP Warning:  copy(../../../client_project/3026347/index.php): failed to open stream: No such file or directory in /home/shawod/public_html/myadmin/dashboard/details.php on line 56
+[30-Oct-2017 19:21:42 UTC] PHP Warning:  mkdir(): No such file or directory in /home/shawod/public_html/myadmin/dashboard/details.php on line 55
+[30-Oct-2017 19:21:42 UTC] PHP Warning:  copy(../../../client_project/3026817/index.php): failed to open stream: No such file or directory in /home/shawod/public_html/myadmin/dashboard/details.php on line 56
+[30-Oct-2017 19:31:57 UTC] PHP Warning:  mkdir(): No such file or directory in /home/shawod/public_html/myadmin/dashboard/details.php on line 55
+[30-Oct-2017 19:31:57 UTC] PHP Warning:  copy(../../../client_project/3022124/index.php): failed to open stream: No such file or directory in /home/shawod/public_html/myadmin/dashboard/details.php on line 56
+[30-Oct-2017 19:51:35 UTC] PHP Warning:  mkdir(): No such file or directory in /home/shawod/public_html/myadmin/dashboard/details.php on line 55
+[30-Oct-2017 19:51:35 UTC] PHP Warning:  copy(../../../client_project/3023212/index.php): failed to open stream: No such file or directory in /home/shawod/public_html/myadmin/dashboard/details.php on line 56
+[30-Oct-2017 19:55:29 UTC] PHP Warning:  mkdir(): No such file or directory in /home/shawod/public_html/myadmin/dashboard/details.php on line 55
+[30-Oct-2017 19:55:29 UTC] PHP Warning:  copy(../../../client_project/3023559/index.php): failed to open stream: No such file or directory in /home/shawod/public_html/myadmin/dashboard/details.php on line 56
+[30-Oct-2017 20:47:49 UTC] PHP Warning:  mkdir(): No such file or directory in /home/shawod/public_html/myadmin/dashboard/details.php on line 55
+[30-Oct-2017 20:47:49 UTC] PHP Warning:  copy(../../../client_project/3024318/index.php): failed to open stream: No such file or directory in /home/shawod/public_html/myadmin/dashboard/details.php on line 56
+[30-Oct-2017 20:50:48 UTC] PHP Warning:  mkdir(): No such file or directory in /home/shawod/public_html/myadmin/dashboard/details.php on line 55
+[30-Oct-2017 20:50:48 UTC] PHP Warning:  copy(../../../client_project/3026222/index.php): failed to open stream: No such file or directory in /home/shawod/public_html/myadmin/dashboard/details.php on line 56
+[30-Oct-2017 20:53:17 UTC] PHP Warning:  mkdir(): No such file or directory in /home/shawod/public_html/myadmin/dashboard/details.php on line 55
+[30-Oct-2017 20:53:17 UTC] PHP Warning:  copy(../../../client_project/3028953/index.php): failed to open stream: No such file or directory in /home/shawod/public_html/myadmin/dashboard/details.php on line 56
+[30-Oct-2017 20:57:34 UTC] PHP Warning:  mkdir(): No such file or directory in /home/shawod/public_html/myadmin/dashboard/details.php on line 55
+[30-Oct-2017 20:57:34 UTC] PHP Warning:  copy(../../../client_project/3021815/index.php): failed to open stream: No such file or directory in /home/shawod/public_html/myadmin/dashboard/details.php on line 56
+[30-Oct-2017 20:59:48 UTC] PHP Warning:  mkdir(): No such file or directory in /home/shawod/public_html/myadmin/dashboard/details.php on line 55
+[30-Oct-2017 20:59:48 UTC] PHP Warning:  copy(../../../client_project/3025528/index.php): failed to open stream: No such file or directory in /home/shawod/public_html/myadmin/dashboard/details.php on line 56
+[30-Oct-2017 21:04:49 UTC] PHP Warning:  mkdir(): No such file or directory in /home/shawod/public_html/myadmin/dashboard/details.php on line 55
+[30-Oct-2017 21:04:49 UTC] PHP Warning:  copy(../../../client_project/3022503/index.php): failed to open stream: No such file or directory in /home/shawod/public_html/myadmin/dashboard/details.php on line 56
+[30-Oct-2017 21:12:41 UTC] PHP Warning:  mkdir(): No such file or directory in /home/shawod/public_html/myadmin/dashboard/details.php on line 55
+[30-Oct-2017 21:12:41 UTC] PHP Warning:  copy(../../../client_project/3024818/index.php): failed to open stream: No such file or directory in /home/shawod/public_html/myadmin/dashboard/details.php on line 56
+[30-Oct-2017 21:29:21 UTC] PHP Warning:  copy(http://shawod.com/client_project/3022510/index.php): failed to open stream: HTTP wrapper does not support writeable connections in /home/shawod/public_html/myadmin/dashboard/details.php on line 56
+[02-Nov-2017 12:00:05 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/shawod/public_html/myadmin/dashboard/information.php on line 31
+[02-Nov-2017 16:58:32 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/shawod/public_html/myadmin/dashboard/information.php on line 31
+[03-Nov-2017 10:38:01 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/shawod/public_html/myadmin/dashboard/information.php on line 31
+[24-Jan-2018 14:10:29 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/shawod/public_html/myadmin/dashboard/information.php on line 31
+[23-May-2018 18:24:10 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/shawod/public_html/myadmin/dashboard/information.php on line 31
+[24-May-2018 13:56:49 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/shawod/public_html/myadmin/dashboard/information.php on line 31
+[15-Nov-2018 13:22:46 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function exists() in /home/shawod/public_html/myadmin/dashboard/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/shawod/public_html/myadmin/dashboard/index.php on line 2
+[15-Nov-2018 13:23:04 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function exists() in /home/shawod/public_html/myadmin/dashboard/index.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/shawod/public_html/myadmin/dashboard/index.php on line 12
+[15-Nov-2018 13:23:22 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function exists() in /home/shawod/public_html/myadmin/dashboard/index.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/shawod/public_html/myadmin/dashboard/index.php on line 4
+[15-Nov-2018 13:23:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function exists() in /home/shawod/public_html/myadmin/dashboard/index.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/shawod/public_html/myadmin/dashboard/index.php on line 6
+[09-Feb-2019 12:35:54 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/shawod/public_html/myadmin/dashboard/information.php on line 31
+[12-Feb-2019 17:15:38 UTC] PHP Warning:  mkdir(): File exists in /home/shawod/public_html/myadmin/dashboard/details.php on line 98
+[12-Feb-2019 17:15:38 UTC] PHP Warning:  mkdir(): File exists in /home/shawod/public_html/myadmin/dashboard/details.php on line 101
+[12-Feb-2019 17:15:38 UTC] PHP Warning:  mkdir(): File exists in /home/shawod/public_html/myadmin/dashboard/details.php on line 104
+[19-Feb-2019 10:27:15 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/shawod/public_html/myadmin/dashboard/information.php on line 31

@@ -1,0 +1,6 @@
+[10-Nov-2017 19:41:25 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/shawod/public_html/portal/settings/index.php:29) in /home/shawod/public_html/portal/settings/information.php on line 28
+[13-Dec-2017 05:15:22 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/shawod/public_html/portal/settings/index.php:29) in /home/shawod/public_html/portal/settings/information.php on line 28
+[18-Jan-2018 08:30:59 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/shawod/public_html/portal/settings/index.php:29) in /home/shawod/public_html/portal/settings/information.php on line 28
+[20-Apr-2019 22:54:12 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/shawod/public_html/portal/settings/index.php:29) in /home/shawod/public_html/portal/settings/information.php on line 28
+[25-Apr-2019 12:53:44 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/shawod/public_html/portal/settings/information.php on line 31
+[01-May-2019 15:47:14 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/shawod/public_html/portal/settings/information.php on line 31

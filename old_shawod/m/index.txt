@@ -1,0 +1,359 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home Page</title>
+</head>
+<!-- x_small -->
+<!--<link rel="stylesheet" href="css/x_small.css" type="text/css" media="screen and (min-width: 0px)">
+<!-- small -->
+<link rel="stylesheet" href="css/small.css" type="text/css" media="screen and (min-width: 400px)">
+<!-- medium -->
+<link rel="stylesheet" href="css/medium.css" type="text/css" media="screen and (min-width: 600px)">
+<!-- large -->
+<link rel="stylesheet" href="css/large.css" type="text/css" media="screen and (min-width: 900px)">
+<!--x_large -->
+<link rel="stylesheet" href="css/x_large.css" type="text/css" media="screen and (min-width: 1200px)">
+<link rel="icon" type="image/ico" href="thumbnails/logoSb.png">
+
+<script src="js/normal.js"></script>
+<body>
+
+<div  id="scroll_up" style="background-color:#333333" onclick="scroll_ups()"></div>
+
+ <div class="log">
+     <img src="thumbnails/logog.png">
+ </div>
+
+<div class="navs">
+   <ul>
+       <li>
+           <a href="home.php" style=" opacity:1"> Home </a>
+           <div class="h" ></div>
+       </li>
+       <div class="dv"></div>
+       <li><a href="website" >Website</a>
+
+       </li>
+       <div class="dv" ></div>
+
+       <div id="bt_hold" onclick="opn()">
+          <div id="bt1"></div>
+           <div ></div>
+           <div></div>
+       </div>
+       <li id="pg"><a href="packages" style="margin-left: -5%"> Packages</a>
+       </li>
+       <div id="pg_dv" class="dv"></div>
+       <li id="sv" onmouseover="sub_link('service_div')" onmouseout="sub_out('service_div')"><a style="cursor: pointer"> Services</a></li>
+
+   </ul> <div id="service_div" onmouseover="sub_link('service_div')" onmouseout="sub_out('service_div')">
+            <div  id="seo" onmouseover="sub_link('service_div')" onmouseout="sub_out('service_div')">S.E.O</div>
+        <div id="server" onmouseover="sub_link('service_div')" onmouseout="sub_out('service_div')">Server Migration</div>
+        <div  id="qoute" onmouseover="sub_link('service_div')" onmouseout="sub_out('service_div')">Get a quote</div>
+
+    </div>
+</div><br><br><br>
+
+
+
+ <div class="slide_div"  align="center" >
+     <div id="left_arrow" onclick="last_img('img')" style="cursor: pointer">  </div>
+     <img src="thumbnails/slide1.png" id="img">
+     <div id="right_arrow" onclick="next_img('img')" style="cursor: pointer">  </div>
+<br><br>
+     <div class="bubbles" align="center">
+         <div align="center" onClick="bluble(0);   clearTimeout(intarval)" id="0" style="background-color:#e8f1ff" ></div>
+         <div align="center" onClick="bluble(1);   clearTimeout(intarval)" id="1"></div>
+         <div align="center" onClick="bluble(2);   clearTimeout(intarval)" id="2"></div>
+     </div>
+
+ </div>
+
+ </div>
+
+ <br>
+ <div  align="center" class="h_intro">
+     <div align="center" class="intro_div">
+         Let's make your <span style="color: rgb(102,204,255)">Online Brand Ambassador !</span>
+     </div>
+ </div>
+ <p class="intro" style="margin-left: 7%">
+     <b>Web Surfers Take 5 Seconds!</b>  To form an impression and find value on your website and here at
+     Shawod we understand that very well, that is why our experts ensure that they add life
+     to each website so that it thrives in today's competitive Market<br><br>
+     At Shawod our custom websites and hosting plans offers flexibility in accordance to your needs,
+     with little or no web development skills we will build your website and get you online in no time.
+ </p>
+
+ <p class="shawod" align="center">Here are some of many features we offer here at Shawod.</p>
+
+
+
+
+
+ <div  align="center" class="web_intro">
+     <div align="center">
+          <span>Websites</span>
+     </div>
+ </div><br><br><br>
+
+<div class="web_pp" style="height: 320px; width:1200px ; margin-left: 5%; padding-left: 3%" align="center">
+
+    <div style="float: left; width: 375px; height: 300px; " >
+        <img src="thumbnails/maintainancefree.png" style="width: 150px">
+        <p style="color:white"><b>Free Maintenance</b></p>
+        <p class="up_text" align="center">
+            One of the advantages of hosting with us is that you never have
+            to worry about maintaining your server or updating
+            your server-side application, all this is done at no cost to you.
+        </p>
+    </div>
+
+    <div style="float: left; width: 375px; height: 300px; " >
+        <img src="thumbnails/uptime.png" style="width: 150px" >
+        <p style="color:white"><b>Up-time Reliability</b></p>
+        <p  class="user_text" align="center">
+            Rest easy knowing your website is up and running, your clients are not missing out on anything, our Servers are Monitored 24/7.
+        </p>
+    </div>
+    <div style="float: left; width: 375px; height: 300px;" >
+        <img src="thumbnails/dedcost.png" style="width: 150px">
+        <p style="color:white"><b>Cost-effectiveness</b></p>
+        <p  class="money_text">
+            We do not shoehorn all projects some need more resources than others
+            and it's only fair to pay for what you need and ONLY what you need,
+            customize our packages to get your shoe size or enquire within.
+        </p>
+    </div>
+
+
+
+</div>
+<a href="#" style="color: rgb(102,240,255); text-decoration: none; font-weight: bold; margin-left: 5%">More on packages > </a>
+<br>
+<br>
+
+
+
+
+
+ <div  align="center" class="web_intro">
+     <div align="center">
+         <span>Packages</span>
+     </div>
+ </div><br><br><br>
+
+ <div class="web_pp" style="height: 320px; width:1200px ; margin-left: 5%; padding-left: 3%" align="center">
+
+     <div style="float: left; width: 375px; height: 300px; " >
+         <img src="thumbnails/maintainancefree.png" style="width: 150px">
+         <p style="color:white"><b>Free Maintenance</b></p>
+         <p class="up_text" align="center">
+             One of the advantages of hosting with us is that you never have
+             to worry about maintaining your server or updating
+             your server-side application, all this is done at no cost to you.
+         </p>
+     </div>
+
+     <div style="float: left; width: 375px; height: 300px; " >
+         <img src="thumbnails/uptime.png" style="width: 150px" >
+         <p style="color:white"><b>Up-time Reliability</b></p>
+         <p  class="user_text" align="center">
+             Rest easy knowing your website is up and running, your clients are not missing out on anything, our Servers are Monitored 24/7.
+         </p>
+     </div>
+     <div style="float: left; width: 375px; height: 300px;" >
+         <img src="thumbnails/dedcost.png" style="width: 150px">
+         <p style="color:white"><b>Cost-effectiveness</b></p>
+         <p  class="money_text">
+             We do not shoehorn all projects some need more resources than others
+             and it's only fair to pay for what you need and ONLY what you need,
+             customize our packages to get your shoe size or enquire within.
+         </p>
+     </div>
+
+
+
+ </div>
+<a href="#" style="color: rgb(102,240,255); text-decoration: none; font-weight: bold; margin-left: 5%">More on packages > </a>
+
+<br>
+<br>
+
+
+
+ <div  align="center" class="web_intro">
+     <div align="center">
+         <span>Services</span>
+     </div>
+ </div><br><br><br>
+
+<div class="web_pp" style="height: 320px; width:1200px ; margin-left: 5%; padding-left: 3%" align="center">
+
+    <div style="float: left; width: 375px; height: 300px; " >
+        <img src="thumbnails/maintainancefree.png" style="width: 150px">
+        <p style="color:white"><b>Free Maintenance</b></p>
+        <p class="up_text" align="center">
+            One of the advantages of hosting with us is that you never have
+            to worry about maintaining your server or updating
+            your server-side application, all this is done at no cost to you.
+        </p>
+    </div>
+
+    <div style="float: left; width: 375px; height: 300px; " >
+        <img src="thumbnails/uptime.png" style="width: 150px" >
+        <p style="color:white"><b>Up-time Reliability</b></p>
+        <p  class="user_text" align="center">
+            Rest easy knowing your website is up and running, your clients are not missing out on anything, our Servers are Monitored 24/7.
+        </p>
+    </div>
+    <div style="float: left; width: 375px; height: 300px;" >
+        <img src="thumbnails/dedcost.png" style="width: 150px">
+        <p style="color:white"><b>Cost-effectiveness</b></p>
+        <p  class="money_text">
+            We do not shoehorn all projects some need more resources than others
+            and it's only fair to pay for what you need and ONLY what you need,
+            customize our packages to get your shoe size or enquire within.
+        </p>
+    </div>
+
+
+
+</div>
+<a href="#" style="color: rgb(102,240,255); text-decoration: none; font-weight: bold; margin-left: 5%">More on packages > </a>
+<br>
+<br>
+
+
+<div   style="margin:0px auto;width: 1200px;height: 5px;border: 2px solid rgb(140,140,140); border-left: none; border-bottom:none;border-right: none; "></div>
+
+ <h3 style="color:rgb(255,255,255); margin-left: 35px">Get a free quote</h3>
+
+ <h5 style="color:rgb(255,255,255); margin-left: 35px">There are some of the gurantee we offer at Shawod nmfsfgs mffdsgndmrjsmgfdg fgdsgdgrjdf
+ kjkjafkdsfndskja fsakfejfasdf afdkabeuabfdsafsafa,dmfas,df <br>sa,dmf akuejad,f afdkajfnskjjhdajashdf
+     There are some of the gurantee we offer at Shawod nmfsfgs mffdsgndmrjsmgfdg fgdsgdgrjdf<br>
+     kjkjafkdsfndskja fsakfejfasdf afdkabeuabfdsafsafa,dmfas,df fsdakfjeafsmf as faskfjeabdsaf sa,dmf akuejad,f afdkajfnskjjhdajashdf<br>
+     There are some of the gurantee we offer at Shawod nmfsfgs mffdsgndmrjsmgfdg fgdsgdgrjdf
+     kjkjafkdsfndskja fsakfejfasdf afdkabeuabfdsafsafa,dmfas,df <br>sa,dmf akuejad,f afdkajfnskjjhdajashdf
+     There are some of the gurantee we offer at Shawod nmfsfgs mffdsgndmrjsmgfdg fgdsgdgrjdf<br>
+     kjkjafkdsfndskja fsakfejfasdf afdkabeuabfdsafsafa,dmfas,df fsdakfjeafsmf as faskfjeabdsaf sa,dmf akuejad,f afdkajfnskjjhdajashdf
+ </h5>
+
+ <h1 align="center" style="color:rgb(102,240,255)" class="why">Why choose us ?</h1>
+
+<div style="margin: 0px auto" align="center" class="images"><img src="thumbnails/why%20us%20blue.png" ></div>
+
+
+ <h5 style="color:rgb(255,255,255); margin-left: 35px; " align="center">Shawod serves as a resource to people with little or no web development
+     skills to quickly own a website, what's more?<br> Our websites are aesthetically simple, minimally
+     adorned and Clutter-free, blending with your business look or personal style.<br>
+     To ice the cake, we are Cost-effective because here at Shawod we believe that a website should
+     be your best business investment, not an expense.<br> Our crew’s primary goal is to ensure that
+     investment has a huge return.
+
+ </h5>
+
+
+<img src="thumbnails/Shawotbannerico.png" class="footer_div">
+ <!--<div class="footer_div">  </div> -->
+
+<br><br>
+ <!--  <img src="thumbnails/userfr.png" width="150">
+   <p style="color:rgb(255,255,255); font-size: 20px"><b>User friendly</b></p>
+   <p style="color:rgb(255,255,255);font-size: 17px">flkdsfgds gdgkjdngdjgkndfgkdmgdkgjurg fdgijnrkgjdf gdm gejrngksgdsmg reksjgnkdgdgfjdingkdkjg dgjss<br>
+       sdfkdnjkgsngnjdgk uirkgsfjgs iug dgbrusbgfdkg dgriugdm,fg dgjnuitngusg iguruigsgsd ,g diugungfksgdgjdusngsuig kujk gsgdgkjdngjkgg</p>
+
+   <img src="thumbnails/modern.png" width="150">
+   <p style="color:rgb(255,255,255); font-size: 20px"><b>Money back</b></p>
+   <p style="color:rgb(255,255,255);font-size: 17px">flkdsfgds gdgkjdngdjgkndfgkdmgdkgjurg fdgijnrkgjdf gdm gejrngksgdsmg reksjgnkdgdgfjdingkdkjg dgjss<br>
+       sdfkdnjkgsngnjdgk uirkgsfjgs iug dgbrusbgfdkg dgriugdm,fg dgjnuitngusg iguruigsgsd ,g diugungfksgdgjdusngsuig kujk gsgdgkjdngjkgg</p>
+
+</div>
+
+
+<div  align="center">
+ <div align="center" style=" color:rgb(255,255,255); font-size:34px;width: 1100px;padding: 15px;  height:auto; border: 2px solid rgb(140,140,140);border-right: none; border-left: none">
+     <span style="color: rgb(102,204,255); font-weight: bold">Packages</span>
+ </div>
+</div><br><br><br>
+<div align="center">
+ <img src="thumbnails/uptime.png" width="150">
+ <p style="color:rgb(255,255,255); font-size: 20px"><b>User friendly</b></p>
+ <p style="color:rgb(255,255,255);font-size: 17px">flkdsfgds gdgkjdngdjgkndfgkdmgdkgjurg fdgijnrkgjdf gdm gejrngksgdsmg reksjgnkdgdgfjdingkdkjg dgjss<br>
+     sdfkdnjkgsngnjdgk uirkgsfjgs iug dgbrusbgfdkg dgriugdm,fg dgjnuitngusg iguruigsgsd ,g diugungfksgdgjdusngsuig kujk gsgdgkjdngjkgg</p>
+
+ <img src="thumbnails/userfr.png" width="150">
+ <p style="color:rgb(255,255,255); font-size: 20px"><b>Money back</b></p>
+ <p style="color:rgb(255,255,255);font-size: 17px">flkdsfgds gdgkjdngdjgkndfgkdmgdkgjurg fdgijnrkgjdf gdm gejrngksgdsmg reksjgnkdgdgfjdingkdkjg dgjss<br>
+     sdfkdnjkgsngnjdgk uirkgsfjgs iug dgbrusbgfdkg dgriugdm,fg dgjnuitngusg iguruigsgsd ,g diugungfksgdgjdusngsuig kujk gsgdgkjdngjkgg</p>
+
+ <img src="thumbnails/modern.png" width="150">
+ <p style="color:rgb(255,255,255); font-size: 20px"><b>User friendly</b></p>
+ <p style="color:rgb(255,255,255);font-size: 17px">flkdsfgds gdgkjdngdjgkndfgkdmgdkgjurg fdgijnrkgjdf gdm gejrngksgdsmg reksjgnkdgdgfjdingkdkjg dgjss<br>
+     sdfkdnjkgsngnjdgk uirkgsfjgs iug dgbrusbgfdkg dgriugdm,fg dgjnuitngusg iguruigsgsd ,g diugungfksgdgjdusngsuig kujk gsgdgkjdngjkgg</p>
+
+</div>
+
+
+<div  align="center">
+ <div align="center" style=" color:rgb(255,255,255); font-size:34px;width: 1100px;padding: 15px;  height:auto; border: 2px solid rgb(140,140,140);border-right: none; border-left: none">
+     <span style="color: rgb(102,204,255); font-weight: bold">Services</span>
+ </div>
+</div><br><br><br>
+<div align="center">
+ <img src="thumbnails/uptime.png" width="150">
+ <p style="color:rgb(255,255,255); font-size: 20px"><b>User friendly</b></p>
+ <p style="color:rgb(255,255,255);font-size: 17px">flkdsfgds gdgkjdngdjgkndfgkdmgdkgjurg fdgijnrkgjdf gdm gejrngksgdsmg reksjgnkdgdgfjdingkdkjg dgjss<br>
+     sdfkdnjkgsngnjdgk uirkgsfjgs iug dgbrusbgfdkg dgriugdm,fg dgjnuitngusg iguruigsgsd ,g diugungfksgdgjdusngsuig kujk gsgdgkjdngjkgg</p>
+
+ <img src="thumbnails/userfr.png" width="150">
+ <p style="color:rgb(255,255,255);font-size: 17px">flkdsfgds gdgkjdngdjgkndfgkdmgdkgjurg fdgijnrkgjdf gdm gejrngksgdsmg reksjgnkdgdgfjdingkdkjg dgjss<br>
+     sdfkdnjkgsngnjdgk uirkgsfjgs iug dgbrusbgfdkg dgriugdm,fg dgjnuitngusg iguruigsgsd ,g diugungfksgdgjdusngsuig kujk gsgdgkjdngjkgg</p>
+
+ <img src="thumbnails/modern.png" width="150">
+ <p style="color:rgb(255,255,255);font-size: 17px">flkdsfgds gdgkjdngdjgkndfgkdmgdkgjurg fdgijnrkgjdf gdm gejrngksgdsmg reksjgnkdgdgfjdingkdkjg dgjss<br>
+     sdfkdnjkgsngnjdgk uirkgsfjgs iug dgbrusbgfdkg dgriugdm,fg dgjnuitngusg iguruigsgsd ,g diugungfksgdgjdusngsuig kujk gsgdgkjdngjkgg</p>
+
+</div>
+-->
+
+<div class="footer_links" style="width: 100%; height: 80px; background-color: rgb(51,51,51)">
+
+    <div class="link_footer1">
+        <a href="#">Contact us</a><br>
+        <a href="contactus.php">About us</a><br>
+        <a href="contactus.php">FAQ's</a>
+    </div>
+
+
+    <img src="thumbnails/find%20shawot.png" class="likeus" width="80" height="20" border="0" usemap="#four" />
+  
+    <map name="four">
+        <span style="color: rgb(255,255,255);margin-left:-95px; font-size: 20px">Follow us on</span>
+        <area shape="rect" coords="5,0,26,14" alt="Like Shawod" href="https://www.facebook.com/pages/Mp3Olova/1512466575638686">
+        <area shape="rect" coords="40,0,72,14" alt="follow Shawod" href="http://www.twitter.com/mp3olova">
+    </map>
+
+
+    <div  class="link_footer2" style="float: right; text-align: center">
+        <a href="#">Terms and Condition</a><br>
+        <a href="contactus.php">Privacy policy</a><br>
+        <a href="contactus.php">Disclaimer</a>
+    </div>
+
+</div>
+
+<div class="footer_copy" style="width: 100%; height: auto; background-color: rgb(102,102,102)">
+<h4 align="center" style="color:rgb(255,255,255)"> Third-party logos and marks are registered and/or unregistered trademarks of their respective owners.
+    <br>
+    (c) Shawod Logo, ShawodHosting, Shawod.com are trademarks of  Shawod<br>All rights reserved.
+
+
+</h4>
+<p align="right" style="margin-right: 2% ; margin-top: -1%">Made with Love at Shawod</p>
+</div>
+
+
+</body>
+</html>

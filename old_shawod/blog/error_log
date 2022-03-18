@@ -1,0 +1,32 @@
+[14-Oct-2017 15:33:02 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/shawod/public_html/connect.php on line 2
+[14-Oct-2017 16:37:22 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/shawod/public_html/connect.php on line 2
+[03-Nov-2017 10:42:45 UTC] PHP Warning:  require(../connect.php): failed to open stream: No such file or directory in /home/shawod/public_html/blog/index.php on line 2
+[03-Nov-2017 10:42:45 UTC] PHP Warning:  require(../connect.php): failed to open stream: No such file or directory in /home/shawod/public_html/blog/index.php on line 2
+[03-Nov-2017 10:42:45 UTC] PHP Fatal error:  require(): Failed opening required '../connect.php' (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/shawod/public_html/blog/index.php on line 2
+[03-Nov-2017 10:42:50 UTC] PHP Warning:  require(../connect.php): failed to open stream: No such file or directory in /home/shawod/public_html/blog/index.php on line 2
+[03-Nov-2017 10:42:50 UTC] PHP Warning:  require(../connect.php): failed to open stream: No such file or directory in /home/shawod/public_html/blog/index.php on line 2
+[03-Nov-2017 10:42:50 UTC] PHP Fatal error:  require(): Failed opening required '../connect.php' (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/shawod/public_html/blog/index.php on line 2
+[04-Nov-2017 01:42:02 UTC] PHP Warning:  require(../connect.php): failed to open stream: No such file or directory in /home/shawod/public_html/blog/index.php on line 2
+[04-Nov-2017 01:42:02 UTC] PHP Warning:  require(../connect.php): failed to open stream: No such file or directory in /home/shawod/public_html/blog/index.php on line 2
+[04-Nov-2017 01:42:02 UTC] PHP Fatal error:  require(): Failed opening required '../connect.php' (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/shawod/public_html/blog/index.php on line 2
+[06-Nov-2017 09:33:44 UTC] PHP Warning:  require(../connect.php): failed to open stream: No such file or directory in /home/shawod/public_html/blog/index.php on line 2
+[06-Nov-2017 09:33:44 UTC] PHP Warning:  require(../connect.php): failed to open stream: No such file or directory in /home/shawod/public_html/blog/index.php on line 2
+[06-Nov-2017 09:33:44 UTC] PHP Fatal error:  require(): Failed opening required '../connect.php' (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/shawod/public_html/blog/index.php on line 2
+[09-Nov-2017 19:13:00 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/shawod/public_html/blog/index.php on line 66
+[09-Mar-2019 17:36:41 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/shawod/public_html/blog/view.php on line 10
+[09-Mar-2019 17:36:42 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/shawod/public_html/blog/view.php on line 10
+[09-Mar-2019 17:36:42 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/shawod/public_html/blog/view.php on line 10
+[09-Mar-2019 17:36:42 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/shawod/public_html/blog/view.php on line 10
+[09-Mar-2019 17:36:42 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/shawod/public_html/blog/view.php on line 10
+[09-Mar-2019 17:36:42 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/shawod/public_html/blog/view.php on line 10
+[09-Mar-2019 17:36:43 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/shawod/public_html/blog/view.php on line 10
+[09-Mar-2019 17:36:43 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/shawod/public_html/blog/view.php on line 10
+[09-Mar-2019 17:36:43 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/shawod/public_html/blog/view.php on line 10
+[09-Mar-2019 17:36:43 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/shawod/public_html/blog/view.php on line 10
+[09-Mar-2019 17:36:44 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/shawod/public_html/blog/view.php on line 10
+[09-Mar-2019 17:36:44 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/shawod/public_html/blog/view.php on line 10
+[09-Mar-2019 17:36:44 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/shawod/public_html/blog/view.php on line 10
+[09-Mar-2019 17:36:44 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/shawod/public_html/blog/view.php on line 10
+[09-Mar-2019 17:36:45 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/shawod/public_html/blog/view.php on line 10
+[09-Mar-2019 17:36:45 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/shawod/public_html/blog/view.php on line 10
+[09-Mar-2019 17:36:45 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/shawod/public_html/blog/view.php on line 10

@@ -1,0 +1,130 @@
+[30-Oct-2017 13:29:24 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/shawod/public_html/portal/payments/index.php:28) in /home/shawod/public_html/portal/payments/information.php on line 28
+[01-Nov-2017 09:53:37 UTC] PHP Parse error:  syntax error, unexpected '=' in /home/shawod/public_html/portal/payments/index.php on line 69
+[01-Nov-2017 09:53:42 UTC] PHP Parse error:  syntax error, unexpected '=' in /home/shawod/public_html/portal/payments/index.php on line 69
+[01-Nov-2017 09:55:26 UTC] PHP Parse error:  syntax error, unexpected '=' in /home/shawod/public_html/portal/payments/index.php on line 69
+[01-Nov-2017 11:05:55 UTC] PHP Warning:  money_format() expects exactly 2 parameters, 1 given in /home/shawod/public_html/portal/payments/index.php on line 83
+[01-Nov-2017 11:06:00 UTC] PHP Warning:  money_format() expects exactly 2 parameters, 1 given in /home/shawod/public_html/portal/payments/index.php on line 83
+[01-Nov-2017 12:09:00 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/shawod/public_html/portal/payments/charge.php on line 3
+[01-Nov-2017 12:09:01 UTC] PHP Fatal error:  Uncaught exception 'Stripe_InvalidRequestError' with message 'Invalid positive integer' in /home/shawod/public_html/portal/payments/vendor/stripe/stripe-php/lib/Stripe/ApiRequestor.php:147
+Stack trace:
+#0 /home/shawod/public_html/portal/payments/vendor/stripe/stripe-php/lib/Stripe/ApiRequestor.php(268): Stripe_ApiRequestor->handleApiError('{\n  "error": {\n...', 400, Array)
+#1 /home/shawod/public_html/portal/payments/vendor/stripe/stripe-php/lib/Stripe/ApiRequestor.php(109): Stripe_ApiRequestor->_interpretResponse('{\n  "error": {\n...', 400)
+#2 /home/shawod/public_html/portal/payments/vendor/stripe/stripe-php/lib/Stripe/ApiResource.php(143): Stripe_ApiRequestor->request('post', '/v1/charges', Array, Array)
+#3 /home/shawod/public_html/portal/payments/vendor/stripe/stripe-php/lib/Stripe/Charge.php(38): Stripe_ApiResource::_scopedCreate('Stripe_Charge', Array, NULL)
+#4 /home/shawod/public_html/portal/payments/charge.php(14): Stripe_Charge::create(Array)
+#5 {main}
+  thrown in /home/shawod/public_html/portal/payments/vendor/stripe/stripe-php/lib/Stripe/ApiRequestor.php on line 147
+[01-Nov-2017 12:10:15 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/shawod/public_html/portal/payments/charge.php on line 4
+[01-Nov-2017 12:12:00 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/shawod/public_html/portal/payments/charge.php on line 4
+[01-Nov-2017 12:12:25 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/shawod/public_html/portal/payments/charge.php on line 4
+[01-Nov-2017 12:13:46 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/shawod/public_html/portal/payments/charge.php on line 4
+[01-Nov-2017 12:13:46 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/shawod/public_html/portal/payments/charge.php on line 5
+[01-Nov-2017 12:14:59 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/shawod/public_html/portal/payments/charge.php on line 4
+[01-Nov-2017 12:14:59 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/shawod/public_html/portal/payments/charge.php on line 5
+[01-Nov-2017 12:15:48 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/shawod/public_html/portal/payments/charge.php on line 5
+[01-Nov-2017 12:15:48 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/shawod/public_html/portal/payments/charge.php on line 5
+[01-Nov-2017 12:15:50 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/shawod/public_html/portal/payments/charge.php on line 5
+[01-Nov-2017 12:15:50 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/shawod/public_html/portal/payments/charge.php on line 5
+[01-Nov-2017 12:15:51 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/shawod/public_html/portal/payments/charge.php on line 5
+[01-Nov-2017 12:15:51 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/shawod/public_html/portal/payments/charge.php on line 5
+[01-Nov-2017 13:51:43 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/shawod/public_html/portal/payments/index.php on line 79
+[01-Nov-2017 19:57:20 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/shawod/public_html/portal/payments/index.php:29) in /home/shawod/public_html/portal/payments/information.php on line 28
+[01-Nov-2017 20:02:59 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/shawod/public_html/portal/payments/index.php on line 77
+[01-Nov-2017 20:02:59 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/shawod/public_html/portal/payments/index.php on line 111
+[02-Nov-2017 12:39:17 UTC] PHP Fatal error:  Uncaught exception 'Stripe_InvalidRequestError' with message 'Invalid positive integer' in /home/shawod/public_html/portal/payments/vendor/stripe/stripe-php/lib/Stripe/ApiRequestor.php:147
+Stack trace:
+#0 /home/shawod/public_html/portal/payments/vendor/stripe/stripe-php/lib/Stripe/ApiRequestor.php(268): Stripe_ApiRequestor->handleApiError('{\n  "error": {\n...', 400, Array)
+#1 /home/shawod/public_html/portal/payments/vendor/stripe/stripe-php/lib/Stripe/ApiRequestor.php(109): Stripe_ApiRequestor->_interpretResponse('{\n  "error": {\n...', 400)
+#2 /home/shawod/public_html/portal/payments/vendor/stripe/stripe-php/lib/Stripe/ApiResource.php(143): Stripe_ApiRequestor->request('post', '/v1/charges', Array, Array)
+#3 /home/shawod/public_html/portal/payments/vendor/stripe/stripe-php/lib/Stripe/Charge.php(38): Stripe_ApiResource::_scopedCreate('Stripe_Charge', Array, NULL)
+#4 /home/shawod/public_html/portal/payments/charge.php(16): Stripe_Charge::create(Array)
+#5 {main}
+  thrown in /home/shawod/public_html/portal/payments/vendor/stripe/stripe-php/lib/Stripe/ApiRequestor.php on line 147
+[02-Nov-2017 12:39:32 UTC] PHP Fatal error:  Uncaught exception 'Stripe_InvalidRequestError' with message 'Invalid positive integer' in /home/shawod/public_html/portal/payments/vendor/stripe/stripe-php/lib/Stripe/ApiRequestor.php:147
+Stack trace:
+#0 /home/shawod/public_html/portal/payments/vendor/stripe/stripe-php/lib/Stripe/ApiRequestor.php(268): Stripe_ApiRequestor->handleApiError('{\n  "error": {\n...', 400, Array)
+#1 /home/shawod/public_html/portal/payments/vendor/stripe/stripe-php/lib/Stripe/ApiRequestor.php(109): Stripe_ApiRequestor->_interpretResponse('{\n  "error": {\n...', 400)
+#2 /home/shawod/public_html/portal/payments/vendor/stripe/stripe-php/lib/Stripe/ApiResource.php(143): Stripe_ApiRequestor->request('post', '/v1/charges', Array, Array)
+#3 /home/shawod/public_html/portal/payments/vendor/stripe/stripe-php/lib/Stripe/Charge.php(38): Stripe_ApiResource::_scopedCreate('Stripe_Charge', Array, NULL)
+#4 /home/shawod/public_html/portal/payments/charge.php(16): Stripe_Charge::create(Array)
+#5 {main}
+  thrown in /home/shawod/public_html/portal/payments/vendor/stripe/stripe-php/lib/Stripe/ApiRequestor.php on line 147
+[02-Nov-2017 12:39:36 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/shawod/public_html/portal/payments/index.php:30) in /home/shawod/public_html/portal/payments/information.php on line 28
+[02-Nov-2017 23:58:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/shawod/public_html/portal/payments/index.php:30) in /home/shawod/public_html/portal/payments/information.php on line 28
+[03-Nov-2017 10:14:29 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/shawod/public_html/portal/payments/information.php on line 31
+[03-Nov-2017 10:17:25 UTC] PHP Fatal error:  Uncaught exception 'Stripe_InvalidRequestError' with message 'Invalid positive integer' in /home/shawod/public_html/portal/payments/vendor/stripe/stripe-php/lib/Stripe/ApiRequestor.php:147
+Stack trace:
+#0 /home/shawod/public_html/portal/payments/vendor/stripe/stripe-php/lib/Stripe/ApiRequestor.php(268): Stripe_ApiRequestor->handleApiError('{\n  "error": {\n...', 400, Array)
+#1 /home/shawod/public_html/portal/payments/vendor/stripe/stripe-php/lib/Stripe/ApiRequestor.php(109): Stripe_ApiRequestor->_interpretResponse('{\n  "error": {\n...', 400)
+#2 /home/shawod/public_html/portal/payments/vendor/stripe/stripe-php/lib/Stripe/ApiResource.php(143): Stripe_ApiRequestor->request('post', '/v1/charges', Array, Array)
+#3 /home/shawod/public_html/portal/payments/vendor/stripe/stripe-php/lib/Stripe/Charge.php(38): Stripe_ApiResource::_scopedCreate('Stripe_Charge', Array, NULL)
+#4 /home/shawod/public_html/portal/payments/charge.php(16): Stripe_Charge::create(Array)
+#5 {main}
+  thrown in /home/shawod/public_html/portal/payments/vendor/stripe/stripe-php/lib/Stripe/ApiRequestor.php on line 147
+[03-Nov-2017 10:17:52 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/shawod/public_html/portal/payments/index.php:30) in /home/shawod/public_html/portal/payments/information.php on line 28
+[05-Nov-2017 05:35:10 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/shawod/public_html/portal/payments/index.php:30) in /home/shawod/public_html/portal/payments/information.php on line 28
+[06-Nov-2017 16:36:17 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/shawod/public_html/portal/payments/index.php:30) in /home/shawod/public_html/portal/payments/information.php on line 28
+[06-Nov-2017 20:24:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/shawod/public_html/portal/payments/index.php:30) in /home/shawod/public_html/portal/payments/information.php on line 28
+[10-Nov-2017 19:48:08 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/shawod/public_html/portal/payments/index.php:30) in /home/shawod/public_html/portal/payments/information.php on line 28
+[27-Nov-2017 07:41:19 UTC] PHP Fatal error:  Uncaught exception 'Stripe_InvalidRequestError' with message 'Amount must convert to at least 50 cents. R5.00 converts to approximately $0.35.' in /home/shawod/public_html/portal/payments/vendor/stripe/stripe-php/lib/Stripe/ApiRequestor.php:147
+Stack trace:
+#0 /home/shawod/public_html/portal/payments/vendor/stripe/stripe-php/lib/Stripe/ApiRequestor.php(268): Stripe_ApiRequestor->handleApiError('{\n  "error": {\n...', 400, Array)
+#1 /home/shawod/public_html/portal/payments/vendor/stripe/stripe-php/lib/Stripe/ApiRequestor.php(109): Stripe_ApiRequestor->_interpretResponse('{\n  "error": {\n...', 400)
+#2 /home/shawod/public_html/portal/payments/vendor/stripe/stripe-php/lib/Stripe/ApiResource.php(143): Stripe_ApiRequestor->request('post', '/v1/charges', Array, Array)
+#3 /home/shawod/public_html/portal/payments/vendor/stripe/stripe-php/lib/Stripe/Charge.php(38): Stripe_ApiResource::_scopedCreate('Stripe_Charge', Array, NULL)
+#4 /home/shawod/public_html/portal/payments/charge.php(16): Stripe_Charge::create(Array)
+#5 in /home/shawod/public_html/portal/payments/vendor/stripe/stripe-php/lib/Stripe/ApiRequestor.php on line 147
+[27-Nov-2017 07:41:56 UTC] PHP Fatal error:  Uncaught exception 'Stripe_InvalidRequestError' with message 'Amount must convert to at least 50 cents. R5.00 converts to approximately $0.35.' in /home/shawod/public_html/portal/payments/vendor/stripe/stripe-php/lib/Stripe/ApiRequestor.php:147
+Stack trace:
+#0 /home/shawod/public_html/portal/payments/vendor/stripe/stripe-php/lib/Stripe/ApiRequestor.php(268): Stripe_ApiRequestor->handleApiError('{\n  "error": {\n...', 400, Array)
+#1 /home/shawod/public_html/portal/payments/vendor/stripe/stripe-php/lib/Stripe/ApiRequestor.php(109): Stripe_ApiRequestor->_interpretResponse('{\n  "error": {\n...', 400)
+#2 /home/shawod/public_html/portal/payments/vendor/stripe/stripe-php/lib/Stripe/ApiResource.php(143): Stripe_ApiRequestor->request('post', '/v1/charges', Array, Array)
+#3 /home/shawod/public_html/portal/payments/vendor/stripe/stripe-php/lib/Stripe/Charge.php(38): Stripe_ApiResource::_scopedCreate('Stripe_Charge', Array, NULL)
+#4 /home/shawod/public_html/portal/payments/charge.php(16): Stripe_Charge::create(Array)
+#5 in /home/shawod/public_html/portal/payments/vendor/stripe/stripe-php/lib/Stripe/ApiRequestor.php on line 147
+[27-Nov-2017 07:43:53 UTC] PHP Fatal error:  Uncaught exception 'Stripe_InvalidRequestError' with message 'Amount must convert to at least 50 cents. R5.00 converts to approximately $0.35.' in /home/shawod/public_html/portal/payments/vendor/stripe/stripe-php/lib/Stripe/ApiRequestor.php:147
+Stack trace:
+#0 /home/shawod/public_html/portal/payments/vendor/stripe/stripe-php/lib/Stripe/ApiRequestor.php(268): Stripe_ApiRequestor->handleApiError('{\n  "error": {\n...', 400, Array)
+#1 /home/shawod/public_html/portal/payments/vendor/stripe/stripe-php/lib/Stripe/ApiRequestor.php(109): Stripe_ApiRequestor->_interpretResponse('{\n  "error": {\n...', 400)
+#2 /home/shawod/public_html/portal/payments/vendor/stripe/stripe-php/lib/Stripe/ApiResource.php(143): Stripe_ApiRequestor->request('post', '/v1/charges', Array, Array)
+#3 /home/shawod/public_html/portal/payments/vendor/stripe/stripe-php/lib/Stripe/Charge.php(38): Stripe_ApiResource::_scopedCreate('Stripe_Charge', Array, NULL)
+#4 /home/shawod/public_html/portal/payments/charge.php(16): Stripe_Charge::create(Array)
+#5 in /home/shawod/public_html/portal/payments/vendor/stripe/stripe-php/lib/Stripe/ApiRequestor.php on line 147
+[27-Nov-2017 07:52:13 UTC] PHP Fatal error:  Uncaught exception 'Stripe_InvalidRequestError' with message 'Amount must convert to at least 50 cents. R5.00 converts to approximately $0.35.' in /home/shawod/public_html/portal/payments/vendor/stripe/stripe-php/lib/Stripe/ApiRequestor.php:147
+Stack trace:
+#0 /home/shawod/public_html/portal/payments/vendor/stripe/stripe-php/lib/Stripe/ApiRequestor.php(268): Stripe_ApiRequestor->handleApiError('{\n  "error": {\n...', 400, Array)
+#1 /home/shawod/public_html/portal/payments/vendor/stripe/stripe-php/lib/Stripe/ApiRequestor.php(109): Stripe_ApiRequestor->_interpretResponse('{\n  "error": {\n...', 400)
+#2 /home/shawod/public_html/portal/payments/vendor/stripe/stripe-php/lib/Stripe/ApiResource.php(143): Stripe_ApiRequestor->request('post', '/v1/charges', Array, Array)
+#3 /home/shawod/public_html/portal/payments/vendor/stripe/stripe-php/lib/Stripe/Charge.php(38): Stripe_ApiResource::_scopedCreate('Stripe_Charge', Array, NULL)
+#4 /home/shawod/public_html/portal/payments/charge.php(16): Stripe_Charge::create(Array)
+#5 in /home/shawod/public_html/portal/payments/vendor/stripe/stripe-php/lib/Stripe/ApiRequestor.php on line 147
+[27-Nov-2017 08:20:20 UTC] PHP Fatal error:  Uncaught exception 'Stripe_InvalidRequestError' with message 'Amount must convert to at least 50 cents. R6.00 converts to approximately $0.42.' in /home/shawod/public_html/portal/payments/vendor/stripe/stripe-php/lib/Stripe/ApiRequestor.php:147
+Stack trace:
+#0 /home/shawod/public_html/portal/payments/vendor/stripe/stripe-php/lib/Stripe/ApiRequestor.php(268): Stripe_ApiRequestor->handleApiError('{\n  "error": {\n...', 400, Array)
+#1 /home/shawod/public_html/portal/payments/vendor/stripe/stripe-php/lib/Stripe/ApiRequestor.php(109): Stripe_ApiRequestor->_interpretResponse('{\n  "error": {\n...', 400)
+#2 /home/shawod/public_html/portal/payments/vendor/stripe/stripe-php/lib/Stripe/ApiResource.php(143): Stripe_ApiRequestor->request('post', '/v1/charges', Array, Array)
+#3 /home/shawod/public_html/portal/payments/vendor/stripe/stripe-php/lib/Stripe/Charge.php(38): Stripe_ApiResource::_scopedCreate('Stripe_Charge', Array, NULL)
+#4 /home/shawod/public_html/portal/payments/charge.php(16): Stripe_Charge::create(Array)
+#5 in /home/shawod/public_html/portal/payments/vendor/stripe/stripe-php/lib/Stripe/ApiRequestor.php on line 147
+[27-Nov-2017 08:22:34 UTC] PHP Fatal error:  Uncaught exception 'Stripe_InvalidRequestError' with message 'Amount must convert to at least 50 cents. R7.00 converts to approximately $0.49.' in /home/shawod/public_html/portal/payments/vendor/stripe/stripe-php/lib/Stripe/ApiRequestor.php:147
+Stack trace:
+#0 /home/shawod/public_html/portal/payments/vendor/stripe/stripe-php/lib/Stripe/ApiRequestor.php(268): Stripe_ApiRequestor->handleApiError('{\n  "error": {\n...', 400, Array)
+#1 /home/shawod/public_html/portal/payments/vendor/stripe/stripe-php/lib/Stripe/ApiRequestor.php(109): Stripe_ApiRequestor->_interpretResponse('{\n  "error": {\n...', 400)
+#2 /home/shawod/public_html/portal/payments/vendor/stripe/stripe-php/lib/Stripe/ApiResource.php(143): Stripe_ApiRequestor->request('post', '/v1/charges', Array, Array)
+#3 /home/shawod/public_html/portal/payments/vendor/stripe/stripe-php/lib/Stripe/Charge.php(38): Stripe_ApiResource::_scopedCreate('Stripe_Charge', Array, NULL)
+#4 /home/shawod/public_html/portal/payments/charge.php(16): Stripe_Charge::create(Array)
+#5 in /home/shawod/public_html/portal/payments/vendor/stripe/stripe-php/lib/Stripe/ApiRequestor.php on line 147
+[27-Nov-2017 08:22:51 UTC] PHP Fatal error:  Uncaught exception 'Stripe_InvalidRequestError' with message 'Amount must convert to at least 50 cents. R7.00 converts to approximately $0.49.' in /home/shawod/public_html/portal/payments/vendor/stripe/stripe-php/lib/Stripe/ApiRequestor.php:147
+Stack trace:
+#0 /home/shawod/public_html/portal/payments/vendor/stripe/stripe-php/lib/Stripe/ApiRequestor.php(268): Stripe_ApiRequestor->handleApiError('{\n  "error": {\n...', 400, Array)
+#1 /home/shawod/public_html/portal/payments/vendor/stripe/stripe-php/lib/Stripe/ApiRequestor.php(109): Stripe_ApiRequestor->_interpretResponse('{\n  "error": {\n...', 400)
+#2 /home/shawod/public_html/portal/payments/vendor/stripe/stripe-php/lib/Stripe/ApiResource.php(143): Stripe_ApiRequestor->request('post', '/v1/charges', Array, Array)
+#3 /home/shawod/public_html/portal/payments/vendor/stripe/stripe-php/lib/Stripe/Charge.php(38): Stripe_ApiResource::_scopedCreate('Stripe_Charge', Array, NULL)
+#4 /home/shawod/public_html/portal/payments/charge.php(16): Stripe_Charge::create(Array)
+#5 in /home/shawod/public_html/portal/payments/vendor/stripe/stripe-php/lib/Stripe/ApiRequestor.php on line 147
+[10-Dec-2017 18:41:25 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/shawod/public_html/portal/payments/index.php:30) in /home/shawod/public_html/portal/payments/information.php on line 28
+[13-Dec-2017 04:35:09 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/shawod/public_html/portal/payments/index.php:30) in /home/shawod/public_html/portal/payments/information.php on line 28
+[23-Jan-2018 01:48:45 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/shawod/public_html/portal/payments/index.php:30) in /home/shawod/public_html/portal/payments/information.php on line 28
+[24-Jan-2018 07:18:12 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/shawod/public_html/portal/payments/index.php:30) in /home/shawod/public_html/portal/payments/information.php on line 28
+[09-Feb-2018 20:41:38 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/shawod/public_html/portal/payments/index.php:30) in /home/shawod/public_html/portal/payments/information.php on line 28
+[20-Apr-2019 22:53:57 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/shawod/public_html/portal/payments/index.php:30) in /home/shawod/public_html/portal/payments/information.php on line 28
